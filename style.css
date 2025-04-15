@@ -9,6 +9,10 @@
 body{
     background-color: #efe8df;
 }
+.MAX-CONTAINER{
+    max-width: 1440px;
+    margin: 0px auto;
+}
 
 .main {
   background-color: #dcd3c9;
