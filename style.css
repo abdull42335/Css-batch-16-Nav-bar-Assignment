@@ -1,26 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Creepster&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap");
 
 * {
-    
   font-family: sans-serif;
   list-style: none;
   text-decoration: none;
 }
-body{
-    background-color: #efe8df;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #efe8df;
 }
-.MAX-CONTAINER{
-    max-width: 1440px;
-    margin: 0px auto;
-}
+/* .MAX-CONTAINER {
+  max-width: 1440px;
+  margin: 0px auto;
+} */
 
 .main {
   background-color: #dcd3c9;
-  border-radius: 6px;
-  border: 1px solid black;
-
   height: 100px;
-  padding: -1px 6px;
 }
 .logo {
   display: inline-block;
@@ -42,11 +39,11 @@ body{
   font-weight: 600;
   color: black;
 }
-.nav-bar a:hover{
-    color: brown;
+.nav-bar a:hover {
+  color: brown;
 }
-.nav-bar a:active{
-    color: rgb(8, 226, 81);
+.nav-bar a:active {
+  color: rgb(8, 226, 81);
 }
 .btn {
   display: inline-block;
